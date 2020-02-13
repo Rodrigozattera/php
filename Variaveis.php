@@ -1,6 +1,6 @@
 <?php
 
-/* aula 1
+/* aula 1 variaveis.
 
  $nome = "Hcode";
 
@@ -77,9 +77,41 @@ $vazio = "";// existe e esta esperando alguma informacao.
 
 */
 
+//$nome = (int)$_GET["a"]; //http://localhost/Variaveis.php?a=123445.
 
+//var_dump($nome);//informar o tipo de dado.
 
+//$ip = $_SERVER["REMOTE_ADDR"]; //pegar o ip da pessoa
 
+//echo $ip;
+
+//$ips = $_SERVER["SCRIPT_NAME"];//log de acesso
+
+//echo $ips;
+
+//escopo de variaveis.
+
+/*
+$nome = "Rodrigo";
+
+function teste(){ //uma funcao sem parametros
+
+    global $nome;//variavel global
+	echo $nome;
+
+}
+
+function teste2(){
+
+    global $nome;
+	echo $nome." agora no teste 2";
+}
+
+teste(); // chamar a funcao
+
+teste2();
+
+*/
 
 
 ?>
