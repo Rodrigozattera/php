@@ -15,3 +15,5 @@ git remote add origin link do seu repositorio
 git config --global user.name ou email "informacoes"
 
 git push origin master .
+
+git pull origen master.
