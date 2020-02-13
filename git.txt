@@ -1,0 +1,17 @@
+git clone link do git
+
+mkdir nome da pasta
+
+git init iniciar um git
+
+git add nome do arquivo enviar algum arquivo pro git
+
+git add --all para enviar todos os arquivos 
+
+git commit -m "oq vc fez nesses arquivos"
+
+git remote add origin link do seu repositorio
+
+git config --global user.name ou email "informacoes"
+
+git push origin master .
